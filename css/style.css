@@ -116,7 +116,7 @@ body{
 }
 .profileContainer {
     padding-right: 24px;
-    width: 256px;
+    width: 240px;
     border-right:  1px solid #ddd;
 }
 .icons {
@@ -128,11 +128,16 @@ body{
 }
 #about {
     padding: 12px 0;
+    font-size: 12px;
     font-style: #00AF64;
 }
 h2 {
     color: #469D90;
     font-size: 26px;
+}
+h3{
+    color:#333;
+    font-size: 20px; 
 }
 .iconImg {
     max-height: 100%;
@@ -149,13 +154,12 @@ h2 {
     color: #000;
 }
 .main {
-    flex: 1;
     order: 3;
-    float:right;
+    flex:1;
 }
-.headre-skill{
-    padding-left: 5px;
+.header-skill{
     padding-top: 30px;
+    font-style: #00AF64;
 }
 .content {
     margin-top: 12px;
