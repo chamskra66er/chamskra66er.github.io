@@ -108,16 +108,16 @@ body{
     width: 30%;
     order: 3;
 }
-.header .footer {
+.header.footer {
     display: flex;
     flex-direction: row;
     height: 50px;
-    color: #fff;
+    color: #fff; 
 }
 .profileContainer {
-    padding-left: 24px;
+    padding-right: 24px;
     width: 256px;
-    border-left: 1px solid #ddd;
+    border-right:  1px solid #ddd;
 }
 .icons {
     display: flex;
@@ -128,6 +128,15 @@ body{
 }
 #about {
     padding: 12px 0;
+    font-style: #00AF64;
+}
+h2 {
+    color: #469D90;
+    font-size: 26px;
+}
+.iconImg {
+    max-height: 100%;
+    max-width: 100%;
 }
 /*
 ont-family: 'Merriweather', serif;
