@@ -212,7 +212,7 @@ font-family: 'PT Sans Caption', sans-serif;
 }  
 .img{    
     z-index: 0;
-
+	margin:20px 10px 20px 0;
 }    
 .end{
     margin-right: 0;
@@ -220,7 +220,7 @@ font-family: 'PT Sans Caption', sans-serif;
 .clear{
     clear: both;
 }
-.img a{
+.img a{	
     display: flex;
     text-decoration: none;
 }
