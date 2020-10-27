@@ -202,3 +202,32 @@ h3{
 ont-family: 'Merriweather', serif;
 font-family: 'PT Sans Caption', sans-serif;
 */
+
+.listContent{
+    margin: 10px;
+    padding-top: 20px;
+}
+#container{
+    width: 100%;  
+}  
+.img{    
+    z-index: 0;
+
+}    
+.end{
+    margin-right: 0;
+}
+.clear{
+    clear: both;
+}
+.img a{
+    display: flex;
+    text-decoration: none;
+}
+.img a img{
+    position: relative;
+    border: 0 solid #fff;
+}
+.descrip{
+    margin: 0 10px 0 10px;
+}
