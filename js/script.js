@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var cont_left = $("#container").position().left;
-    $("a img").hover(function() {
+    $("#scrt img").hover(function() {
         // приближение
         $(this).parent().parent().css("z-index", 1);
         $(this).animate({

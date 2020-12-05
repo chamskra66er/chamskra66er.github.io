@@ -132,6 +132,7 @@ body{
     display: inline-block;
     float: left;
     width: 5px;
+	background-image: inherit;
 }
 .profilePic {
     width: 100%;
