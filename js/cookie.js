@@ -1,9 +1,19 @@
+var obj = {
+   table: []
+};
+
 var numLoads = parseInt(getCookie('pageLoads'), 10);
 
 if (isNaN(numLoads) || numLoads <= 0) { setCookie('pageLoads', 1); }
 else { setCookie('pageLoads', numLoads + 1); }
 
 console.log(getCookie('pageLoads'));
+
+
+obj.table.push({id: 1, square:2});
+var dataJson = JSON.stringify(obj);
+var fs = require('fs');
+fs.writeFile('data/sample.json', json, 'utf8', callback);
 
 function setCookie (cookieName, cookieValue, nDays) {
         var today  = new Date(),
