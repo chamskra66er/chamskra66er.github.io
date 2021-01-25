@@ -13,7 +13,7 @@ console.log(getCookie('pageLoads'));
 obj.table.push({id: 1, square:2});
 var dataJson = JSON.stringify(obj);
 var fs = require('fs');
-fs.writeFile('data/sample.json', json, 'utf8', callback);
+fs.writeFile('data/sampledata.json', json, 'utf8', callback);
 
 function setCookie (cookieName, cookieValue, nDays) {
         var today  = new Date(),
