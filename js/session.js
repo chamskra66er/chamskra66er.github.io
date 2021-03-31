@@ -2,25 +2,30 @@
 var data = sessionStorage.getItem('setting');
 var checkbox = document.querySelector("input[id=check]");
 
-function SetBlackColor(ckeck)
+function SetColorIndex(ckeck)
 {
-	//var header = document.getElementsByClassName('header');
-	//var img = document.getElementById('img1');
 	var imgs = document.querySelectorAll('[id=img1]');
+	var about = document.querySelector('[id=about]');
+	
 	if(ckeck){
 		document.body.style.backgroundColor = "rgb(35,35,35)";	
 		
-		//imgs.foreach(element => console.log(element));
-		imgs[0].style.color = "red";
-		imgs[1].style.color = "red";
+		for(var i=0; i<imgs.length;i++)
+		{
+			imgs[i].style.color = "azure";
+		}
+		
+		about.style.color = "azure";
 	}
 	else{
 		document.body.style.backgroundColor = "rgb(250,250,250)";
-		//header.style.backgroundColor = "rgb(250,250,250)";
-		//.style.Color = 'green' ;
-		//img.style.Color = "green";
-		imgs[0].style.color = "black";
-		imgs[1].style.color = "black";		
+
+		for(var i=0; i<imgs.length;i++)
+		{
+			imgs[i].style.color = "black";
+		}	
+
+		about.style.color = "black";		
 	}	
 }
 
@@ -30,11 +35,11 @@ if(data == null){
 
 if(data=='light'){
 	document.getElementById("check").checked = true;
-	SetBlackColor(false);
+	SetColorIndex(false);
 }
 else{
 	document.getElementById("check").checked = false;
-	SetBlackColor(true);
+	SetColorIndex(true);
 }
 
 
@@ -44,13 +49,13 @@ checkbox.addEventListener('change', e => {
 		sessionStorage.setItem('setting', 'light');
 		document.getElementById("check").checked = true;
 		console.log("Checkbox is checked..");
-		SetBlackColor(false);
+		SetColorIndex(false);
   } 
   else {
 		sessionStorage.setItem('setting', 'black');
 		document.getElementById("check").checked = false;
 		console.log("Checkbox is not checked..");
-		SetBlackColor(true);
+		SetColorIndex(true);
 	}
 });
 
