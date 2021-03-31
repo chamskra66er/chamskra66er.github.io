@@ -6,6 +6,8 @@ function SetColorIndex(ckeck)
 {
 	var imgs = document.querySelectorAll('[id=img1]');
 	var about = document.querySelector('[id=about]');
+	var cham = document.getElementById('cham');
+	var foot = document.querySelector('[class=footer]');
 	
 	if(ckeck){
 		document.body.style.backgroundColor = "rgb(35,35,35)";	
@@ -16,6 +18,8 @@ function SetColorIndex(ckeck)
 		}
 		
 		about.style.color = "azure";
+		cham.style.color = "azure";
+		foot.style.color = "azure";
 	}
 	else{
 		document.body.style.backgroundColor = "rgb(250,250,250)";
@@ -25,7 +29,9 @@ function SetColorIndex(ckeck)
 			imgs[i].style.color = "black";
 		}	
 
-		about.style.color = "black";		
+		about.style.color = "black";
+		cham.style.color = "black";
+		foot.style.color = "black";		
 	}	
 }
 
