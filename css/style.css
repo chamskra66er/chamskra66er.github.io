@@ -109,6 +109,7 @@ body{
 .sidebar {
     width: 15%;
     order: 3;
+	min-width: 200px;
 }
 .header.footer {
     display: flex;

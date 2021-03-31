@@ -25,7 +25,7 @@ function SetColorIndex(ckeck)
 	else{
 		document.body.style.backgroundColor = "rgb(250,250,250)";
 
-		for(var i=0; i<imgs.length;i++)
+		for(var i=0; i<head.length;i++)
 		{
 			head[i].style.color = "black";
 		}	
