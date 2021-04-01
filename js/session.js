@@ -9,6 +9,8 @@ function SetColorIndex(ckeck)
 	var cham = document.getElementById('cham');
 	var foot = document.querySelector('[class=footer]');
 	
+	var hh = document.getElementById("git");
+	
 	if(ckeck){
 		document.body.style.backgroundColor = "rgb(35,35,35)";	
 		
@@ -20,6 +22,8 @@ function SetColorIndex(ckeck)
 		about.style.color = "azure";
 		cham.style.color = "azure";
 		foot.style.color = "azure";
+		
+		hh.src = "./image/git1.png";
 	}
 	else{
 		document.body.style.backgroundColor = "rgb(250,250,250)";
@@ -31,7 +35,9 @@ function SetColorIndex(ckeck)
 
 		about.style.color = "black";
 		cham.style.color = "black";
-		foot.style.color = "black";		
+		foot.style.color = "black";
+
+		hh.src = "./image/git.png";
 	}	
 }
 
