@@ -60,13 +60,11 @@ checkbox.addEventListener('change', e => {
   if (e.target.checked) {
 		sessionStorage.setItem('setting', 'light');
 		document.getElementById("check").checked = true;
-		console.log("Checkbox is checked..");
 		SetColorIndex(false);
   } 
   else {
 		sessionStorage.setItem('setting', 'black');
 		document.getElementById("check").checked = false;
-		console.log("Checkbox is not checked..");
 		SetColorIndex(true);
 	}
 });
