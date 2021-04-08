@@ -10,6 +10,7 @@ function SetColorIndex(ckeck)
 	var foot = document.querySelector('[class=footer]');
 	
 	var hh = document.getElementById("git");
+	var icon = document.getElementById("ic");
 	
 	if(ckeck){
 		document.body.style.backgroundColor = "rgb(35,35,35)";	
@@ -24,6 +25,8 @@ function SetColorIndex(ckeck)
 		foot.style.color = "azure";
 		
 		hh.src = "./image/git1.png";
+		icon.src = "./image/moon.png";
+		icon.style = "margin:-2px 0 0 1px";
 	}
 	else{
 		document.body.style.backgroundColor = "rgb(250,250,250)";
@@ -38,6 +41,9 @@ function SetColorIndex(ckeck)
 		foot.style.color = "black";
 
 		hh.src = "./image/git.png";
+		
+		icon.src = "./image/son.png";
+		icon.style = "margin:-2px 0 0 22px";
 	}	
 }
 

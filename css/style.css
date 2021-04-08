@@ -264,8 +264,8 @@ h3{
   right: 0;
   bottom: 0;
   background-color: #271052;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .1s;
+  transition: .1s;
   
   border: 2px solid #593F70;
 }
@@ -278,8 +278,8 @@ h3{
   left: -2px;
   bottom: -6px;
   background-color: #6E40C9;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .1s;
+  transition: .1s;
 }
 
 input:checked + .slider {
@@ -294,7 +294,7 @@ input:checked + .slider:before {
   -webkit-transform: translateX(20px);
   -ms-transform: translateX(20px);
   transform: translateX(20px);
-  background-color: #2F363D;
+  background-color: #2F363D;	
 }
 
 /* Rounded sliders */
@@ -304,6 +304,11 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+#ic{
+	position:relative;
+	width:20px;
+	margin:-2px 0 0 1px;
 }
 
 /**/
