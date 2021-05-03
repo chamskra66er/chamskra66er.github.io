@@ -12,7 +12,7 @@ function SetColorIndex(ckeck)
 	var hh = document.getElementById("git");
 	var icon = document.getElementById("ic");
 	
-	if(ckeck){
+	if(!ckeck){
 		document.body.style.backgroundColor = "rgb(35,35,35)";	
 		
 		for(var i=0; i<imgs.length;i++)
@@ -26,6 +26,7 @@ function SetColorIndex(ckeck)
 		
 		hh.src = "./image/git1.png";
 		icon.src = "./image/moon.png";
+
 		icon.style = "margin:-2px 0 0 1px";
 	}
 	else{
@@ -43,21 +44,23 @@ function SetColorIndex(ckeck)
 		hh.src = "./image/git.png";
 		
 		icon.src = "./image/son.png";
+
 		icon.style = "margin:-2px 0 0 22px";
 	}	
 }
 
 if(data == null){
 	sessionStorage.setItem('setting', 'light');
-}
-
-if(data=='light'){
 	document.getElementById("check").checked = true;
 	SetColorIndex(false);
 }
+if(data=='light'){
+	document.getElementById("check").checked = true;
+	SetColorIndex(true);
+}
 else{
 	document.getElementById("check").checked = false;
-	SetColorIndex(true);
+	SetColorIndex(false);
 }
 
 
@@ -66,12 +69,12 @@ checkbox.addEventListener('change', e => {
   if (e.target.checked) {
 		sessionStorage.setItem('setting', 'light');
 		document.getElementById("check").checked = true;
-		SetColorIndex(false);
+		SetColorIndex(true);
   } 
   else {
 		sessionStorage.setItem('setting', 'black');
 		document.getElementById("check").checked = false;
-		SetColorIndex(true);
+		SetColorIndex(false);
 	}
 });
 

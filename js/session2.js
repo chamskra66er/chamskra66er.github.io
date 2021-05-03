@@ -14,7 +14,7 @@ function SetColorIndex(ckeck)
 	
 	//color for link cadetblue
 	
-	if(ckeck){
+	if(!ckeck){
 		document.body.style.backgroundColor = "rgb(35,35,35)";	
 		
 		for(var i=0; i<imgs.length;i++)
@@ -35,7 +35,7 @@ function SetColorIndex(ckeck)
 		{
 			imgs[i].style.color = "black";
 			head[i].style.color = "black";
-			links[i].style.color = "black";
+			links[i].style.color = "grey";
 		}	
 
 		about.style.color = "black";
@@ -46,13 +46,14 @@ function SetColorIndex(ckeck)
 
 if(data == null){
 	sessionStorage.setItem('setting', 'light');
+	SetColorIndex(false);
 }
 
 if(data=='light'){
-	SetColorIndex(false);
+	SetColorIndex(true);
 }
 else{
-	SetColorIndex(true);
+	SetColorIndex(false);
 }
 
 

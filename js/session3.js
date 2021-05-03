@@ -10,7 +10,7 @@ function SetColorIndex(ckeck)
 	
 	var head = document.querySelectorAll('[id=head1]');
 	
-	if(ckeck){
+	if(!ckeck){
 		document.body.style.backgroundColor = "rgb(35,35,35)";	
 		
 		for(var i=0; i<head.length;i++)
@@ -38,13 +38,14 @@ function SetColorIndex(ckeck)
 
 if(data == null){
 	sessionStorage.setItem('setting', 'light');
+	SetColorIndex(false);
 }
 
 if(data=='light'){
-	SetColorIndex(false);
+	SetColorIndex(true);
 }
 else{
-	SetColorIndex(true);
+	SetColorIndex(false);
 }
 
 
