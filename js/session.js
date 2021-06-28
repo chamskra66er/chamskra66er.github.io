@@ -50,8 +50,8 @@ function SetColorIndex(ckeck)
 }
 
 if(data == null){
-	sessionStorage.setItem('setting', 'light');
-	document.getElementById("check").checked = true;
+	sessionStorage.setItem('setting', 'black');
+	document.getElementById("check").checked = false;
 	SetColorIndex(false);
 }
 if(data=='light'){
