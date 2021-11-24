@@ -1,11 +1,14 @@
 var obj = {
    table: []
 };
-
 var imgs = document.querySelectorAll('[id=pageLoad]');
-
+var numLoads = parseInt(getCookie('pageLoads'), 10);
 if(isNaN(numLoads) || numLoads <= 0) 
 { 
+	if(imgs.value > 0 )
+	{
+		setCookie('pageLoads', imgs.value); 
+	}
 	setCookie('pageLoads', 1); 
 }
 else 
