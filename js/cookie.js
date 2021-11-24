@@ -3,6 +3,7 @@ var obj = {
 };
 var imgs = document.querySelectorAll('[id=pageLoad]');
 var numLoads = parseInt(getCookie('pageLoads'), 10);
+
 if(isNaN(numLoads) || numLoads <= 0) 
 { 
 	if(imgs.value > 0 )
