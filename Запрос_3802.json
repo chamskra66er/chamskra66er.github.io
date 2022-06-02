@@ -1,0 +1,155 @@
+{
+	"__approvalLists": {},
+	"__branches": {
+		"00000000-0000-0000-0000-000000000000": {
+			"path": "/items/3f5b28f1-38fa-4a36-91de-3b388a45441f",
+			"state": "wait",
+			"timerID": "00000000-0000-0000-0000-000000000000",
+			"timerIDs": [
+				"00000000-0000-0000-0000-000000000000"
+			],
+			"changedAt": "2022-03-03T13:40:04.443854522Z",
+			"updatedAt": "2022-03-03T13:40:04.420669698Z",
+			"updatedBy": "d0746a0e-770d-4d3c-ae4a-df3bde95cd84",
+			"taskMultiInstanceData": {}
+		}
+	},
+	"__createdAt": "2022-03-02T14:37:21.451839406Z",
+	"__createdBy": "d0746a0e-770d-4d3c-ae4a-df3bde95cd84",
+	"__currentPerformers": [
+		"4f5bbb9e-39b9-4f84-a0a9-0fcd9fa44fdb"
+	],
+	"__debugUserId": null,
+	"__fieldVisibilityConditions": {
+		"log": {
+			"enabled": false,
+			"conditions": []
+		},
+		"handling": {
+			"enabled": false,
+			"conditions": []
+		},
+		"dokumenty": {
+			"enabled": false,
+			"conditions": []
+		}
+	},
+	"__flowHistory": {
+		"items": {
+			"/items/3f5b28f1-38fa-4a36-91de-3b388a45441f": true,
+			"/items/60fc9947-a6d3-4ccf-8464-4f09b585027b": true,
+			"/items/8b5c8887-2cdb-4418-9997-2544d129da57": true,
+			"/items/a32e5264-59b1-4697-8cc6-abeab62fa172": true,
+			"/items/c283f834-39b6-4bb4-814e-f6d151380497": true,
+			"/items/e69c40fe-df07-4e61-9801-99f87189163e": true,
+			"/items/f5ef171e-a9e5-4a13-ada8-465be4dca6fa": true
+		},
+		"transitions": {
+			"18783701-f842-430b-b24a-cb1ff61cae9b": true,
+			"2b53bbf7-9bf7-4070-86fb-b6c8cbc12d48": true,
+			"33ffa0c6-490f-4e5c-bee3-c6d32e69d6da": true,
+			"6577b47e-c52d-4436-8308-e1a35011efd8": true,
+			"922097d5-d0b8-4d79-9530-e71cd1005f40": true,
+			"acac08fe-0331-4399-a9b2-a12babdfc5c0": true,
+			"f223ed45-0309-405c-a818-1399a9502cf0": true
+		}
+	},
+	"__id": "40b8b4f9-3d7c-4659-b736-b2f3d8022ba1",
+	"__informLists": null,
+	"__item": {
+		"id": "2c4ec7a4-e878-435a-b369-2ee796135987",
+		"code": "zaprosy_v_otdel_razvitiya",
+		"namespace": "_clients"
+	},
+	"__logged": true,
+	"__name": "БП управление запросами в отдел развития (Запрос №3802 Консультация по лицензиям )",
+	"__nameTemplate": "БП управление запросами в отдел развития ({$zaprosy_v_otdel_razvitiya})",
+	"__notifyOnStart": true,
+	"__parent": {
+		"id": "073d1fc4-dda7-477c-b4d5-36935eb045cd",
+		"path": "/items/1b763dce-59cb-48fa-a4b7-8ac9bd14dcfc",
+		"branch": "00000000-0000-0000-0000-000000000000"
+	},
+	"__performers": {
+		"69ee5066-a8b8-49e6-a31f-802878311045": {
+			"users": [
+				"d0746a0e-770d-4d3c-ae4a-df3bde95cd84"
+			]
+		}
+	},
+	"__state": "wait",
+	"__subscribers": [
+		"d0746a0e-770d-4d3c-ae4a-df3bde95cd84",
+		"4f5bbb9e-39b9-4f84-a0a9-0fcd9fa44fdb"
+	],
+	"__targetData": null,
+	"__tasks": {
+		"588ff33d-6a87-4e7b-8888-9bb1df659975": {
+			"__id": "588ff33d-6a87-4e7b-8888-9bb1df659975",
+			"path": "/items/3f5b28f1-38fa-4a36-91de-3b388a45441f",
+			"state": "in_progress",
+			"__item": {
+				"id": "2c4ec7a4-e878-435a-b369-2ee796135987",
+				"code": "zaprosy_v_otdel_razvitiya",
+				"namespace": "_clients"
+			},
+			"__name": "Укажите номер сервиса",
+			"branch": "00000000-0000-0000-0000-000000000000",
+			"dueDate": null,
+			"openRef": false,
+			"planEnd": null,
+			"timerId": "00000000-0000-0000-0000-000000000000",
+			"__target": "",
+			"template": "БП управление запросами в отдел развития",
+			"__context": [],
+			"__percent": 0,
+			"companies": null,
+			"planStart": null,
+			"performers": [
+				"4f5bbb9e-39b9-4f84-a0a9-0fcd9fa44fdb"
+			],
+			"reassignes": [
+				"9bcea0de-d5d3-479d-9811-2cbf04b12129"
+			],
+			"__createdAt": "2022-03-03T13:40:04.614720234Z",
+			"__createdBy": "d0746a0e-770d-4d3c-ae4a-df3bde95cd84",
+			"__deletedAt": null,
+			"__updatedAt": "2022-03-03T14:58:34.444606963Z",
+			"__updatedBy": "9d3daedd-cbcc-4787-ad35-ce36e4ba5273",
+			"__targetData": null,
+			"allowReassign": true,
+			"originalPerformers": [
+				"9bcea0de-d5d3-479d-9811-2cbf04b12129"
+			]
+		}
+	},
+	"__template": {
+		"id": "3c7fe94f-9ce6-4900-a2c3-300e5d50cc96",
+		"code": "bp_upravlenie_zaprosami_v_otdel_razvitiya",
+		"name": "БП управление запросами в отдел развития",
+		"version": 23,
+		"namespace": "_clients.zaprosy_v_otdel_razvitiya"
+	},
+	"__templateId": "3c7fe94f-9ce6-4900-a2c3-300e5d50cc96",
+	"__updatedAt": "2022-03-03T14:58:34.949433295Z",
+	"__updatedBy": "9d3daedd-cbcc-4787-ad35-ce36e4ba5273",
+	"cross_instance": {
+		"callback": "",
+		"parent_path": "",
+		"parent_task": "00000000-0000-0000-0000-000000000000",
+		"parent_branch": "",
+		"parent_instance": "00000000-0000-0000-0000-000000000000",
+		"company_initiator": "",
+		"is_cross_instance": false
+	},
+	"dokumenty": [],
+	"handling": [],
+	"ispolnitel": [
+		"4f5bbb9e-39b9-4f84-a0a9-0fcd9fa44fdb"
+	],
+	"log": null,
+	"nomer_osnovnogo_dokumenta": null,
+	"zaprosy_v_otdel_razvitiya": [
+		"2c4ec7a4-e878-435a-b369-2ee796135987"
+	]
+}
