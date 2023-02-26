@@ -215,6 +215,9 @@ h3{
     .header.footer {
         height: 15px;
     }
+	#hiddenslsh{
+		visibility:hidden;
+	}
 }
 
 .listContent{
