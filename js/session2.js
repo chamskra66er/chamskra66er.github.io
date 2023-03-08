@@ -2,6 +2,19 @@
 var data = sessionStorage.getItem('setting');
 var checkbox = document.querySelector("input[id=check]");
 
+var datenow = new Date(Date.now());
+var datepast = new Date(Date.parse("05.01.2021"));
+var diffTime = Math.abs(datenow - datepast);
+const diffDays = (Math.ceil(diffTime / (1000 * 60 * 60 * 24))/365).toFixed(2);
+
+
+window.addEventListener("load", (event) => {
+	console.log(diffDays);
+	var dateattr = document.getElementById('customdate');
+	dateattr.textContent = `[${diffDays}]`;
+});
+
+
 function SetColorIndex(ckeck)
 {
 	var imgs = document.querySelectorAll('[id=proj]');
