@@ -126,7 +126,7 @@ body{
 .icons {
     display: flex;
     flex-direction: row;
-    width: 105px;
+    width: 140px;
 }
 .iconContainer {
     flex: 1;
